@@ -5,13 +5,8 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Storage {
 
-    uint256 number; // este es un comentario de una sola linea
+    uint256 number; // este es un entero
 
-    /*
-        Este es un comentario
-        multi
-        linea
-     */
     function store(uint256 num) public {
         number = num;
     }
